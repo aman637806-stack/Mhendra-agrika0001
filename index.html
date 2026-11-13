@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAL WORK With ZORO TRADER 📊</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #0b0b0b;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        /* Profile / Logo Image Styling */
+        .logo-container {
+            width: 140px;
+            height: 140px;
+            border-radius: 28px;
+            background: linear-gradient(145deg, #222, #111);
+            padding: 4px;
+            box-shadow: 0 10px 30px rgba(255, 128, 0, 0.25);
+            margin-bottom: 25px;
+            position: relative;
+            border: 2px solid rgba(255, 140, 0, 0.4);
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 24px;
+        }
+
+        /* Channel Subtitle */
+        .channel-subtitle {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #ff9f43;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        /* Main Channel Title */
+        .channel-title {
+            font-size: 24px;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .channel-title span {
+            color: #ff8c00;
+        }
+
+        /* Description */
+        .description {
+            font-size: 13px;
+            color: #b5b5b5;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            padding: 0 10px;
+            font-weight: 400;
+        }
+
+        /* Join Button */
+        .join-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #ff9f43 0%, #ff6b00 100%);
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 16px 20px;
+            border-radius: 14px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 8px 25px rgba(255, 107, 0, 0.4);
+            transition: all 0.3s ease;
+            margin-bottom: 35px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .join-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(255, 107, 0, 0.6);
+        }
+
+        .join-btn svg {
+            width: 22px;
+            height: 22px;
+            fill: #ffffff;
+        }
+
+        /* Timer Box */
+        .timer-box {
+            width: 100%;
+            background: rgba(25, 25, 25, 0.6);
+            border: 1px solid rgba(255, 140, 0, 0.2);
+            border-radius: 16px;
+            padding: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.05);
+        }
+
+        .time-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .time-digits {
+            font-size: 32px;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .time-label {
+            font-size: 10px;
+            font-weight: 600;
+            color: #ff9f43;
+            letter-spacing: 1.5px;
+            margin-top: 2px;
+        }
+
+        .time-separator {
+            font-size: 28px;
+            font-weight: 800;
+            color: #ff8c00;
+            margin-top: -12px;
+        }
+
+        /* Footer Section */
+        footer {
+            width: 100%;
+            max-width: 420px;
+            margin-top: 40px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            color: #888888;
+            font-size: 11px;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #ff9f43;
+        }
+
+        .copyright {
+            font-size: 11px;
+            color: #666666;
+            margin-bottom: 8px;
+        }
+
+        .powered-by {
+            font-size: 10px;
+            color: #ff8c00;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo / Image -->
+        <div class="logo-container">
+            <img src="https://i.ibb.co/q3LnBR3V/IMG-20261111-111502-977.jpg" alt="ZORO TRADER Logo">
+        </div>
+
+        <!-- Subtitle -->
+        <div class="channel-subtitle">TELEGRAM CHANNEL</div>
+
+        <!-- Main Title -->
+        <h1 class="channel-title">HALAL WORK With <br><span>ZORO TRADER 📊</span></h1>
+
+        <!-- Description -->
+        <p class="description">
+            Trusted market insights, 100% halal guidelines, transparent analysis & honest updates — straight from the desk to your phone.
+        </p>
+
+        <!-- Join Telegram Button -->
+        <a href="https://t.me/+xOXxoOZ0h04yYzVl" class="join-btn" target="_blank">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.38-.27-2.06-.49-.83-.27-1.49-.42-1.43-.89.03-.25.38-.51 1.06-.78 4.16-1.82 6.94-3.02 8.34-3.61 3.97-1.67 4.79-1.96 5.33-1.97.12 0 .38.03.55.17.14.12.18.28.2.45-.02.07-.02.13-.04.29z"/>
+            </svg>
+            JOIN TELEGRAM CHANNEL
+        </a>
+
+        <!-- Countdown Timer Box -->
+        <div class="timer-box">
+            <div class="time-block">
+                <span class="time-digits" id="minutes">04</span>
+                <span class="time-label">MIN</span>
+            </div>
+            <div class="time-separator">:</div>
+            <div class="time-block">
+                <span class="time-digits" id="seconds">56</span>
+                <span class="time-label">SEC</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Disclaimer</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="copyright">© 2026 ZORO TRADER. All rights reserved.</div>
+        <div class="powered-by">HALAL TRADING COMMUNITY</div>
+    </footer>
+
+    <script>
+        // Simple Countdown Timer Script
+        let totalSeconds = 4 * 60 + 56;
+        const minEl = document.getElementById('minutes');
+        const secEl = document.getElementById('seconds');
+
+        setInterval(() => {
+            if (totalSeconds > 0) {
+                totalSeconds--;
+                let m = Math.floor(totalSeconds / 60);
+                let s = totalSeconds % 60;
+                minEl.textContent = m < 10 ? '0' + m : m;
+                secEl.textContent = s < 10 ? '0' + s : s;
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
